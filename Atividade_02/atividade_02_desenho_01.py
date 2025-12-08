@@ -11,7 +11,7 @@ class App():
     def __init__(self, tamanhoTela=[1024, 1024]):
         pygame.init()
         self.tela = pygame.display.set_mode(tamanhoTela, pygame.DOUBLEBUF | pygame.OPENGL)
-        pygame.display.set_caption("Atividade 02 - Computação Gráfica - Alysson José")
+        pygame.display.set_caption("Atividade 03 - Computação Gráfica - Alysson José")
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
         glScale(1, -1, 1)
